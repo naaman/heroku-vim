@@ -1,7 +1,7 @@
 heroku-vim
 ==========
 
-Install's vim in a dyno and starts a bash session.
+Installs vim in a dyno and starts a bash session.
 
 ## Install
 
@@ -22,5 +22,14 @@ Running `mkdir vim
 curl https://s3.amazonaws.com/heroku-vim/vim-7.3.tar.gz --location --silent | tar xz -C vim
 export PATH=$PATH:/app/vim/bin
 bash` attached to terminal... up, run.2135
-~ $ vim
+~ $ cat README
+This is your new Play application
+=====================================
+
+This file will be packaged with your application, when using `play dist`.
+~ $ vi README
+bash: vi: command not found
+~ $ vim README
+~ $ cat README
+Changed on a dyno!
 ```
