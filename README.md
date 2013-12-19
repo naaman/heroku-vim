@@ -27,8 +27,6 @@ This is your new Play application
 =====================================
 
 This file will be packaged with your application, when using `play dist`.
-~ $ vi README
-bash: vi: command not found
 ~ $ vim README
 ~ $ cat README
 Changed on a dyno!
